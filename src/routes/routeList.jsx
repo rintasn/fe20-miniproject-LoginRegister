@@ -1,6 +1,6 @@
 import ListUser from "../pages/ListUser";
 import Login from "../pages/Login";
-import Register from "../pages/Register";
+import Register from "../pages/RegisterUser";
 import SingleUser from "../pages/SingleUser";
 import Home from "../pages/Home";
 import ProtectedRoute from "./ProtectedRoute";
@@ -27,7 +27,7 @@ export const routeList = [
         element: <Login />
     },
     {
-        path: '/register',
+        path: '/registeruser',
         element: <Register />
     },
     {
